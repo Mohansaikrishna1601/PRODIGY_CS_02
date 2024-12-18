@@ -18,19 +18,19 @@ This Python script implements a simple image encryption and decryption tool. The
 ## Code Explanation
 
     encrypt_image(input_image_path, output_image_path, key):
--Opens the input image and converts it to a NumPy array of pixels.
--Encrypts the image by adding the key value to each pixel and ensures the pixel values stay within 0-255 using modulo 256.
--Saves the encrypted image to the specified output path.
+  -Opens the input image and converts it to a NumPy array of pixels.
+  -Encrypts the image by adding the key value to each pixel and ensures the pixel values stay within 0-255 using modulo 256.
+  -Saves the encrypted image to the specified output path.
 
     decrypt_image(input_image_path, output_image_path, key):
--Opens the encrypted image and converts it to a NumPy array of pixels.
--Decrypts the image by subtracting the key value from each pixel and ensures the pixel values stay within 0-255 using modulo 256.
--Saves the decrypted image to the specified output path.
+  -Opens the encrypted image and converts it to a NumPy array of pixels.
+  -Decrypts the image by subtracting the key value from each pixel and ensures the pixel values stay within 0-255 using modulo 256.
+  -Saves the decrypted image to the specified output path.
 
     main():
--Provides an interactive interface for the user to choose between encryption, decryption, or quitting the program.
--Prompts the user to enter the image paths and key value.
--Calls the appropriate function based on user choice and displays the result.
+  -Provides an interactive interface for the user to choose between encryption, decryption, or quitting the program.
+  -Prompts the user to enter the image paths and key value.
+  -Calls the appropriate function based on user choice and displays the result.
 
 ## Usage
 Clone the Repository:
