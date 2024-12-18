@@ -71,5 +71,5 @@ Image encrypted and saved as encrypted_image.jpg
 - NumPy
 
 # Author
-- Mohan Saikrishna
+- Mohan Sai Krishna G M
 
