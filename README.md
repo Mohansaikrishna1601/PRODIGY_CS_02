@@ -5,10 +5,10 @@
 
 This Python script implements a simple image encryption and decryption tool. The tool allows users to encrypt and decrypt images using a specified integer key. The encryption process involves modifying the pixel values of the image based on the key, ensuring that the original image is transformed into an encrypted version and vice versa.
 
-# Features
-  -Encrypt Images: Converts an original image into an encrypted image by adding a key value to each pixel.
-  -Decrypt Images: Converts an encrypted image back into its original form by subtracting the key value from each pixel.
-  -Interactive Interface: Provides a user-friendly command-line interface for choosing between encryption, decryption, or quitting the program.
+## Features
+-Encrypt Images: Converts an original image into an encrypted image by adding a key value to each pixel.
+-Decrypt Images: Converts an encrypted image back into its original form by subtracting the key value from each pixel.
+-Interactive Interface: Provides a user-friendly command-line interface for choosing between encryption, decryption, or quitting the program.
 
 # How It Works
    -Encryption: Each pixel value in the input image is modified by adding a specified key value. The operation ensures the pixel values remain within the valid range (0-255) using modulo 256.
